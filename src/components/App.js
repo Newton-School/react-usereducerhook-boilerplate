@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div id="main">
       {/* access  the variables */}
-      <h1>{state.count}</h1>
+      {/* <h1>{state.count}</h1> */}
       <button
         onClick={() => {
           dispatch({ type: 'INCREMENT' });
@@ -23,8 +23,8 @@ const App = () => {
         Click Here
       </button>
       
-      {state.showText && <p>This Is The Text</p>}
-
+      {/* {state.showText && <p>This Is The Text</p>} */}
+       
     </div>
   );
 };
